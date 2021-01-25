@@ -15,7 +15,7 @@ const Layout = ({ children, title }: LayoutProps) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <main className="antialiased">{children}</main>
+      <main className="antialiased bg-coolGray-50">{children}</main>
     </div>
   )
 }
