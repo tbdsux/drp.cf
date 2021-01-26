@@ -30,6 +30,7 @@ const Navbar = () => {
         href="#"
         className="text-xl py-2 px-6 bg-emerald-500 text-white hover:bg-emerald-600 rounded-full"
       >
+        <i className="lni lni-package mr-2"></i>
         Check Package
       </a>
     </nav>
