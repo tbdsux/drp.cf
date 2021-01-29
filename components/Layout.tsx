@@ -19,7 +19,7 @@ const Layout = ({ children, title }: LayoutProps) => {
         ></link>
       </Head>
 
-      <main className="antialiased bg-coolGray-50">{children}</main>
+      <main className="antialiased">{children}</main>
     </div>
   )
 }
