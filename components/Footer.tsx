@@ -7,7 +7,17 @@ const Footer = () => {
           <h1 className="text-2xl text-emerald-500 font-black tracking-wide">
             drp.cf
           </h1>
-          <p>Copyrights &copy; {new Date().getFullYear()} | drp.cf </p>
+          <p>
+            Copyrights &copy; {new Date().getFullYear()} | drp.cf |{' '}
+            <a
+              href="https://github.com/TheBoringDude/drp.cf"
+              target="_blank"
+              className="hover:underline"
+              title="See Github Repo"
+            >
+              Github
+            </a>
+          </p>
         </div>
       </footer>
     </div>

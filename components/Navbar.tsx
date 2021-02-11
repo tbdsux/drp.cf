@@ -1,16 +1,16 @@
 const Navbar = () => {
   return (
-    <nav className="py-5 w-5/6 mx-auto flex items-center justify-between">
+    <nav className="py-5 w-5/6 mx-auto flex flex-col md:flex-row items-center justify-between">
       <div>
         <h1 className="text-3xl font-black text-emerald-500 tracking-wider">
           drp.cf
         </h1>
       </div>
 
-      <ul className="flex">
+      <ul className="flex flex-row my-3 md:my-0">
         <li>
           <a
-            href="#"
+            href="#services"
             className="px-4 py-2 text-lg hover:bg-emerald-200 text-coolGray-700"
           >
             Our Services
@@ -18,7 +18,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="#"
+            href="#team"
             className="px-4 py-2 text-lg hover:bg-emerald-200 text-coolGray-700"
           >
             Who We Are
