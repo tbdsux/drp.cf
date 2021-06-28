@@ -8,10 +8,11 @@ const Footer = () => {
             drp.cf
           </h1>
           <p>
-            Copyrights &copy; {new Date().getFullYear()} | drp.cf |{' '}
+            Copyrights &copy; {new Date().getFullYear()} | drp.cf |{" "}
             <a
               href="https://github.com/TheBoringDude/drp.cf"
               target="_blank"
+              rel="noreferrer"
               className="hover:underline"
               title="See Github Repo"
             >
@@ -21,7 +22,7 @@ const Footer = () => {
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

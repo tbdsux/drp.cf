@@ -1,10 +1,10 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import Layout from '../components/Layout'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Layout from "../components/Layout";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
-import { HowTos } from '../util/how-to'
+import { HowTos } from "../util/how-to";
 
 const Home = () => {
   return (
@@ -15,14 +15,14 @@ const Home = () => {
       <div className="py-24 w-5/6 mx-auto">
         <div className="text-center w-full md:w-5/6 xl:w-3/4 mx-auto">
           <p className="text-5xl sm:text-6xl lg:text-7xl font-bold text-coolGray-500">
-            Your{' '}
+            Your{" "}
             <span className="text-emerald-500 font-black uppercase">
               one-stop
-            </span>{' '}
+            </span>{" "}
             <span className="underline text-coolGray-800">
               <br />
               dropping center
-            </span>{' '}
+            </span>{" "}
             for your packages.
           </p>
           {/* social icons */}
@@ -69,7 +69,12 @@ const Home = () => {
       <div className="w-5/6 mx-auto py-20" id="services">
         <h1 className="text-6xl font-black">What do we offer?</h1>
         <div className="flex flex-col md:flex-row items-center justify-between py-8">
-          <Image src="/services.svg" height="400" width="400" />
+          <Image
+            src="/services.svg"
+            height="400"
+            width="400"
+            alt="Dropping Area Service"
+          />
           <div className="w-full md:w-3/4 lg:w-3/5 ml-3">
             <h3 className="text-5xl font-black text-emerald-500">
               Dropping Area Service
@@ -91,7 +96,12 @@ const Home = () => {
               How does
               <br /> it work?
             </h3>
-            <Image src="/how-it-works.svg" height="300" width="300" />
+            <Image
+              src="/how-it-works.svg"
+              height="300"
+              width="300"
+              alt="How it works."
+            />
           </div>
           <p className="text-lg text-white">
             We notify immediately (through SMS) the receiver of the package once
@@ -141,7 +151,7 @@ const Home = () => {
             Repellendus eligendi exercitationem obcaecati?
           </p>
         </div>
-        <Image src="/team.svg" height="300" width="300" />
+        <Image src="/team.svg" height="300" width="300" alt="Who we are." />
 
         <hr />
 
@@ -177,7 +187,7 @@ const Home = () => {
 
       <Footer />
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
